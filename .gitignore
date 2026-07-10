@@ -1,0 +1,28 @@
+# Environment files
+.env
+backend/.env
+frontend/.env
+*.env
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+backend/.venv/
+
+# Python caches and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Node modules & build outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
